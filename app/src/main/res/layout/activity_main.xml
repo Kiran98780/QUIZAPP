@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ctadmin.quizapp.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Choose the correct name for this hollywood actor."
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="275dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/JerrySeinfeld" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RadioButton
+        android:id="@+id/yes_radio_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jerry Seinfeld "
+        android:textColor="#ffffff"
+        android:buttonTint="#ffff"
+        android:textAppearance="?android:textAppearanceMedium" />
+     <RadioButton
+       android:id="@+id/no_radio_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tom Cruise "
+         android:textColor="#ffffff"
+         android:buttonTint="#ffff"
+         android:textAppearance="?android:textAppearanceMedium" />
+    <RadioButton
+        android:id="@+id/no_radio_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Johnny Depp  "
+        android:textColor="#ffffff"
+        android:buttonTint="#ffff"
+        android:textAppearance="?android:textAppearanceMedium" />
+    <RadioButton
+        android:id="@+id/no_radio_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amitabh Bachchan "
+        android:textColor="#ffffff"
+        android:buttonTint="#ffff"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+</RadioGroup>
+
+        <TextView
+            android:id="@+id/title_text_view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Choose the correct name for this hollywood actor."
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/photo_image_view11"
+            android:layout_width="wrap_content"
+            android:layout_height="275dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/Johnny-Depp" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/yes_radio_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jerry Seinfeld "
+            android:textColor="#ffffff"
+            android:buttonTint="#ffff"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <RadioButton
+            android:id="@+id/no_radio_button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tom Cruise "
+            android:textColor="#ffffff"
+            android:buttonTint="#ffff"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <RadioButton
+            android:id="@+id/no_radio_button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Johnny Depp "
+            android:textColor="#ffffff"
+            android:buttonTint="#ffff"
+            android:textAppearance="?android:textAppearanceMedium" />
+        <RadioButton
+            android:id="@+id/no_radio_button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amitabh Bachchan "
+            android:textColor="#ffffff"
+            android:buttonTint="#ffff"
+            android:textAppearance="?android:textAppearanceMedium" />
+</RadioGroup>
+</LinearLayout>
+</ScrollView>
